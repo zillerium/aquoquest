@@ -8,16 +8,18 @@ const Story = () => {
       <Row >
         <Col md={7} className="fs-3">
           {/* Left side with larger text */}
-          <h2 className="fw-bold">DeFi Composition and Optimization</h2>
+          <h2 className="fw-bold">Making DEX Trade More Efficient</h2>
           <p>
-	  A combination of dozens of conversations with DeFi professionals, feedback from investors, and finally doctoral research (part-time) led to the Aquo model.
+	  AMMs lose pricing due to slippage. The Aquo solution enhances previous solutions from Uniswap v4 and Curve v1, to produce a lower slippage curve aimed at RWAs.
+
 
           </p>
         </Col>
         <Col md={5} className="fs-5">
           {/* Right side with smaller text */}
           <p>
-	  The original ideas were to create derivatives on RWAs (real-world assets) to allow more markets to exist for RWAs. These ideas were shaped into DeFi Composition and then Reinforcement Learning (RL). As of today, we are testing RL systems.
+	  Following the emergence of AMMs (in 2008 led by Chen and others) various invariants emerged based on convex optimization. But the solutions all had varying degrees of slippage and capital efficiency was suboptimal. 
+	  Aquo introduces better methods to reduce slippage and make capital more efficient.
 
           </p>
         </Col>

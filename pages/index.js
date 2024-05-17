@@ -51,11 +51,11 @@ function Home() {
 	  <BannerTitle />
 	  </div>
       <div id="Story">
-	    <h1 className="text-center">Our Story</h1>
+	    <h1 className="text-center">The Aquo Solution</h1>
         <Story />
       </div>
 	  <div id="video-section">
-	    <h1 className="text-center">The Aquo DeFi Protocol</h1>
+	    <h1 className="text-center">The Aquo Protocol</h1>
 <VideoManager2 />
 	  </div>
       <div id="AboutUs">
