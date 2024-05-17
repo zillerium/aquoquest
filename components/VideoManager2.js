@@ -6,24 +6,24 @@ import VideoPlayer from './VideoPlayer';
 
 const textBoxesData = [
   {
-    title: "Emerging DeFi Composition",
-    text: "We use emerging DeFi Composition."
+    title: "RWA Focus",
+    text: "We focus on RWA trading."
   },
   {
-    title: "AI Optimization",
-    text: "We use Reinforcement Learning to optimize trades."
+    title: "AMM Curves",
+    text: "We allow a single liquidity pool asset (not a pair)."
   },
   {
-    title: "Complex Financial Products",
-    text: "We create complex financial products via DeFi Composition."
+    title: "Coverage Ratio",
+    text: "We optimize via a coverage ratio (allowing more trade)."
   },
   {
-    title: "DeFi Integrations",
-    text: "We integrate lending, yield, yield aggregators, DEXs, and Tokenization Dapps."
+    title: "Cross-Chain",
+    text: "Available via Arbitrum and others."
   },
   {
-    title: "The DeFi Paradigm",
-    text: "DeFi is an emerging paradigm."
+    title: "Innovative",
+    text: "Innovation based solutions."
   }
 ];
 
@@ -46,9 +46,10 @@ const VideoManager2 = () => {
           <VideoPlayer />
         </Col>
         <Col md={6}>
-          <h1>The Aquo Journey</h1>
+          <h1>The Main Features</h1>
           <p>
-            Aquo implements AI learning systems for optimization in an emerging DeFi sector which has over a 100 billion dollars in assets and revenues of billions of dollars.
+	    Aimed at RWA AMM transaction, to make the AMMs more usable.
+
           </p>
           <Carousel indicators={false} interval={3000}>
             {slidesData.map((slide, idx) => (

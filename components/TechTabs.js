@@ -11,16 +11,16 @@ const TechTabs = () => {
           <Nav variant="pills" className="tech-tab-nav">
             {/* ... Nav Items ... */}
             <Nav.Item>
-              <Nav.Link eventKey="first">Reinforcement Learning</Nav.Link>
+              <Nav.Link eventKey="first">Invariants</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="second">DeFi Composition</Nav.Link>
+              <Nav.Link eventKey="second">Coverage Ratio</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="third">Optimization</Nav.Link>
+              <Nav.Link eventKey="third">Concentrated Liquidity</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="fourth">Simulations</Nav.Link>
+              <Nav.Link eventKey="fourth">Aggregation</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
@@ -31,22 +31,22 @@ const TechTabs = () => {
 	  <Tab.Pane eventKey="first">
               <Row>
                 <Col md={6}>
-                  <Image src="rl.png" fluid />
+                  <Image src="invariants.png" fluid />
                 </Col>
                 <Col md={6}>
-                  <h4>Reinforcement Learning</h4>
-                  <p>We used reinforcement and PyTorch to get the rewards and observations to optimize Aquo transaction.</p>
+                  <h4>Invariants</h4>
+	          <p>We improve on sum and product invariants extending Stableswap, Wombat and Platypus. </p>
                 </Col>
               </Row>
             </Tab.Pane>
             <Tab.Pane eventKey="second">
 	  <Row>
                 <Col md={6}>
-                  <Image src="deficomposition2.png" fluid />
+                  <Image src="coverageratio.png" fluid />
                 </Col>
                 <Col md={6}>
-                  <h4>DeFi Composition</h4>
-                  <p>DeFi Composition is used to call DeFi Protocols.</p>
+                  <h4>Coverage Ratio</h4>
+                  <p>Capital efficiency can be improved by using coverage ratios.</p>
                 </Col>
               </Row>
 	  {/* Content for DeFi Composition */}
@@ -54,11 +54,11 @@ const TechTabs = () => {
             <Tab.Pane eventKey="third">
 	  <Row>
                 <Col md={6}>
-                  <Image src="optimize.png" fluid />
+                  <Image src="concliquidity.png" fluid />
                 </Col>
                 <Col md={6}>
-                  <h4>Optimization</h4>
-                  <p>We implement optimization strategies using RL.</p>
+                  <h4>Concentrated Liquidity</h4>
+                  <p>By using concentrated liquidity, we can further improve capital efficiency.</p>
                 </Col>
               </Row>
               {/* Content for Optimization */}
@@ -66,11 +66,11 @@ const TechTabs = () => {
             <Tab.Pane eventKey="fourth">
 	         <Row>
                 <Col md={6}>
-                  <Image src="simulations.png" fluid />
+                  <Image src="aggregation.png" fluid />
                 </Col>
                 <Col md={6}>
-                  <h4>Simulation</h4>
-                  <p>We simulate DeFi Protocols using python to build training datasets.</p>
+                  <h4>Aggregation</h4>
+                  <p>Asset aggregation and liquidity aggregation.</p>
                 </Col>
               </Row>
               {/* Content for Simulations */}
@@ -81,6 +81,7 @@ const TechTabs = () => {
     </Tab.Container>
   );
 };
+
 
 export default TechTabs;
 

@@ -26,11 +26,9 @@ const Pitch = () => {
         quality={100}
       />
       <Container className="position-relative" style={{ zIndex: 10 }}>
-        <h1 className="text-white">Aquo Pitchdeck & Whitepaper</h1>
-        <p className="text-white-50">Aquo is to revolutionize DeFi</p>
-        <Button variant="primary" onClick={openPdf} className="me-2">Pitchdeck PDF</Button>
+        <h1 className="text-white">Aquo Whitepaper</h1>
+        <p className="text-white-50">Aquo Optimization</p>
         <Button variant="primary" onClick={openWpPdf} className="me-2">White Paper</Button>
-        <Button variant="primary" onClick={openPptx}>Pitchdeck Slides</Button>
       </Container>
     </div>
   );

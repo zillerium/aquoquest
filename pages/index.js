@@ -61,33 +61,15 @@ function Home() {
       <div id="AboutUs">
         <AboutUs />
       </div>
-	  <div>
-	    <h1 className="text-center">DeFi Protocols</h1>
-<Logos />
-	  </div>
 	        <div id="TechTabs" className="tech-tabs-background">
-        <h1 className="tech-tabs-title">Our Technologies</h1>
+        <h1 className="tech-tabs-title">Our Technologies & Methods</h1>
 
         <TechTabs />
-      </div>
-      <div id="Team">
-        <Team />
       </div>
       <div id="Pitch">
         <Pitch />
       </div>
 
-      <div id="Market" >
-	    <h1 className="text-center">Markets</h1>
-
-        <Market />
-      </div>
-	  <div id="Roadmap">
-	  <Roadmap />
-	  </div>
-	  <div>
-<UseCaseContainer />
-	  </div>
     </div>
   );
 }

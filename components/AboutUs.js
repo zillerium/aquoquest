@@ -5,28 +5,29 @@ function AboutUs() {
     <Container className="my-5">
       <Row className="mb-4">
         <Col>
-          <h1 className="text-center">About Us: Passion & Excellence</h1>
+          <h1 className="text-center">About Us</h1>
         </Col>
       </Row>
 
       <Row>
         <Col md={6} className="mb-3">
-          <Image src="/ai-rl.png" alt="RL" thumbnail />
+          <Image src="/optimization-header.png" alt="Optimization" thumbnail />
         </Col>
         <Col md={6}>
           <h2>Who we are?</h2>
           <p>
-            Our team is a collection of AI and blockchain specialists to deliver state-of-art solutions, using Reinforcement Learning, DeFi Composition, Optimization, Smart Contracts, and Wallet integrations.
+	    We are specialists in the DeFi, optimization, blockchains, capital efficiency, slippage, AMMs, and reinforcement learning (AI).
           </p>
 
           <h2>What we do?</h2>
           <p>
-	  We work in the field of optimization by implement AI learning systems. These systems assign rewards to DeFi Protocols so we can use multiple DeFi Protocols in one transaction. This lowers slippage, improves returns and enable complex financial products to be built.
+	  We wok to solve problems in DeFi (an emerging sector) and this involves a new protocol to improve AMMs and improve liquidity which is essential to make DeFi a more effective market segment attracting capital, users, and solving business problems.
           </p>
 
           <h2>Core Values</h2>
           <p>
-	  We believe that DeFi solutions can revolutionize financial systems, improving access to financial services, providing better investment returns, more choice for users, and lower operating costs. 
+	  We believe that optimization will make financial systems more effective which will widen their use, lowering costs to users, and widening access.
+
           </p>
         </Col>
       </Row>

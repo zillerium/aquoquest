@@ -2,9 +2,8 @@
 
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
 const VideoPlayer = () => {
-    const videoId = "myWSmT_jGJU";
+    const videoId = "tZnnGnH-ivM";
     const embedUrl = `https://www.youtube.com/embed/${videoId}`;
 
     return (

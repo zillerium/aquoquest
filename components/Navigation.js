@@ -16,13 +16,9 @@ const Navigation = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto"> {/* Change this line to align nav items to the right */}
           <Nav.Link onClick={() => scrollToSection('AboutUs')}>About</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('Team')}>Team</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('UseCases')}>Use Cases</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('Market')}>Market</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('TechTabs')}>Tech</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('Pitch')}>Pitch</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('Roadmap')}>Roadmap</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('Story')}>Story</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection('TechTabs')}>Technology</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection('Pitch')}>White Paper</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection('Story')}>Solution</Nav.Link>
           {/* ... other Nav.Links ... */}
         </Nav>
       </Navbar.Collapse>
