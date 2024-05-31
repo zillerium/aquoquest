@@ -73,6 +73,9 @@ function Home() {
       <div id="Tokenization">
         <Tokenization />
       </div>
+      <div id="Pitch">
+        <Logos />
+      </div>
 
     </div>
   );
