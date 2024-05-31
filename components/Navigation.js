@@ -18,7 +18,8 @@ const Navigation = () => {
           <Nav.Link onClick={() => scrollToSection('AboutUs')}>About</Nav.Link>
           <Nav.Link onClick={() => scrollToSection('TechTabs')}>Technology</Nav.Link>
           <Nav.Link onClick={() => scrollToSection('Pitch')}>White Paper</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection('Story')}>Solution</Nav.Link>
+	  <Nav.Link onClick={() => scrollToSection('Story')}>Solution</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection('Tokenization')}>Tokenization</Nav.Link>
           {/* ... other Nav.Links ... */}
         </Nav>
       </Navbar.Collapse>

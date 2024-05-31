@@ -9,6 +9,7 @@ import Navigation from "../components/Navigation"; // Assuming you have the Navi
 import AboutUs from '../components/AboutUs';
 import Tech from '../components/Tech';
 import Market from '../components/Market';
+import Tokenization from '../components/Tokenization';
 import TechTabs from '../components/TechTabs';
 import Team from '../components/Team';
 import Pitch from '../components/Pitch';
@@ -68,6 +69,9 @@ function Home() {
       </div>
       <div id="Pitch">
         <Pitch />
+      </div>
+      <div id="Tokenization">
+        <Tokenization />
       </div>
 
     </div>
